@@ -50,8 +50,9 @@ for (int i = 0; i < 2; i++)
         {
             //заполним элмент неповторяющимся значением
             array[i,j,y] = FillArray(array, i,j,y);
-            Console.Write($"{array[i,j,y]} ");
+            Console.Write($"{array[i,j,y]} ({i},{j},{y}) ");
         }
+        Console.WriteLine();
     }
-    Console.WriteLine();
+    
 }
